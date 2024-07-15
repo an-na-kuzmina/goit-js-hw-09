@@ -39,10 +39,6 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 Нехай підпис буде знизу і з'являється через 250 мілісекунд після відкриття модального вікна.
 */
 
-import SimpleLightbox from 'simplelightbox';
-
-import 'simplelightbox/dist/simple-lightbox.min.css';
-
 const images = [
   {
     preview:
@@ -108,6 +104,10 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
+
+import SimpleLightbox from 'simplelightbox';
+
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('ul.gallery');
 
